@@ -24,4 +24,6 @@ body {
 img {
     display: block;
     object-fit: cover;
+    width:60%;
+    height: auto;
 }
