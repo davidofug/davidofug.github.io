@@ -14,3 +14,9 @@ body {
 *::before {
     box-sizing: inherit;
 }
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 90px auto;
+}
