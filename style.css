@@ -11,20 +11,6 @@ body {
 
 *,
 *:after,
-*::before {
-    box-sizing: inherit;
-}
-
-.container {
-    width: 90%;
-    max-width: 1140px;
-    margin: 90px auto;
-}
-
-img {
-    display: block;
-    object-fit: cover;
-    width:60%;
-    max-width: 960px;
-    height: auto;
+html {
+    scroll-behavior: smooth;
 }
