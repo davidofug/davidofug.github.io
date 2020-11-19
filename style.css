@@ -14,3 +14,11 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+a {
+    color: #5945e6;
+}
+
+a:hover {
+    font-weight: bold;
+}
