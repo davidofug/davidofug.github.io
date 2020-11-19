@@ -20,5 +20,6 @@ a {
 }
 
 a:hover {
+    color: #5945e6;
     font-weight: bold;
 }
