@@ -34,7 +34,7 @@
                                                 <a href="#receive" class="nav-link">Receive Payments</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#pay" class="nav-link">Make Payment</a>
+                                                <a href="#pay" class="nav-link">Make a Payment</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="#access-money" class="nav-link">Access your money</a>
@@ -47,16 +47,21 @@
                         </li>
                     </div>
                 </div>
+
                 <div class="col-sm-9 p-5 content">
 
                     <div class="jumbotron jumbotron-fluid">
+
                         <div class="container">
+
                           <h1 class="display-4">Patasente Payment Gateway</h1>
                           <p class="lead">
                             In this detailed article, we introduce you to Patasente Payment Gateway, and help you learn how to use it so that you can increase online sales.
                           </p>
+
                         </div>
-                      </div>
+
+                    </div>
 
                     <h1>Patasente Payment Gateway</h1>
 
@@ -68,7 +73,14 @@
                     
                     <h2 class="anchor" id="integration">Intregration</h2>
 
-                    <p><b>Patasente</b> offers 2 integration options;- Rest API and WordPress WooCommerce Plugin.</p>
+                    <p><b>Patasente</b> offers 2 integration options.</p>
+                    
+                    <p>
+                        <ol>
+                            <li><a href="#rest-api">The REST API</a></li>
+                            <li><a href="#woocommerce-patasente-payment-gateway">The WordPress Plugin</a></li>
+                        </ol>
+                    </p>
                     
                     <h3 class="anchor" id="rest-api">The REST API</h3>
 
@@ -82,6 +94,7 @@
                     </ol>
 
                     <h3 class="anchor" id="woocommerce-patasente-payment-gateway">WooCommerce Patasente Payment Gateway</h2>
+
                     <p>This is the best alternative, and is suitable for none-developers, web designers, and managers.</p>
                     <p>The <strong>WooCommerce Patasente Payment Gateway</strong> is a robust and easy to integrate. Makes it easy for customers to pay for goods and services online.</p>
                     <p>Website owners can Accept and collect payments from a wide range of options including Mobile Money (Airtel and MTN), Patasente Wallet, Patasente Cards, Visa and Master cards.</p>
@@ -95,6 +108,7 @@
                     </ul>
 
                     <p>The Patasente WooCommerce plugin is free, which you can download via <a href="https://wordPress.org">https://wordPress.org</a></p>
+                    
                     <h3 class="anchor" id="receive">Receive payments using WooCommerce Patasente Payment Gateway</h3>
                     
                     <ol>
@@ -106,35 +120,42 @@
                         <li><strong>Login</strong><br/>
                             <p>Login to your account by providing your credentials.</p>
                         </li>
-                            <li><p><strong>Create a widget</strong></p>
+                        <li>
+                            <p><strong>Create a widget</strong></p>
+                            <p class="p-5">
+                                <img src="screenshots/collection-widget-form.png" class="img-fluid" alt="Collection widget form" title="Complete collection widget form">
+                                <em class="text-muted"><strong>Fig 1:</strong>Create Patasente Widget</em>
+                            </p>
                             <ul>
                                 <li>After successful logging in, locate and click the Collection widget link.</li>
                                 <li>A list(if you have) of your widgets will be displayed.</li>
                                 <li>Click Add Widget to create a new Widget.</li>
-                                <li>Provide the Name, Button Label and optionally the official website where you want to integrate the widget. Finish by clicking Add.</li>
+                                <li>Provide the Name, Button Label and optionally the official website where you want to integrate the widget. Finish by clicking <b>Add.</b></li>
+                                <li>If the widget is created a verification code will be sent to your phone and you will be required to provide it before starting to use the widget.</li>
+                                <li>Wait for the team at Patasente to review and verify your widget, upon which you will get a <strong>Gateway API key</strong> and <strong>Gateway widget key.</strong>
+                                    <p class="p-5">
+                                        <img src="screenshots/gateway-api-and-widget-keys.png" class="img-fluid border" alt="verified-patasente_collection_widget" title="Verified Patasente Collection Widget">
+                                        <em class="text-muted"><strong>Fig 2:</strong>Verified Patasente Widget</em>
+                                    </p>
+                                </li>
                             </ul>
                         </li>
-                    </ol>
-
-                    <p class="p-5"><img src="screenshots/collection-widget-form.png" class="img-fluid" alt="Collection widget form" title="Complete collection widget form">
-                    <em class="text-muted"><strong>Fig 1:</strong> Create Patasente Widget</em></p>
-                    <ul>
-                    <li>If the widget is created a verification code will be sent to your phone and you will be required to provide it before starting to use the widget.</li>
-                    <li>Wait for the team at Patasente to review and verify your widget, upon which you will get a <strong>Gateway API key</strong> and <strong>Gateway widget key.</strong></li>
-                    </ul>
-                    <p class="p-5"><img src="screenshots/gateway-api-and-widget-keys.png" class="img-fluid border" alt="verified-patasente_collection_widget" title="Verified Patasente Collection Widget">
-                    <em class="text-muted"><strong>Fig 2:</strong> Verified Patasente Widget</em></p>
-                    <ol>
-                        <li><strong>Get the Plugin</strong>
-                        <strong>The WooCommerce Patasente Payment Gateway</strong> is available for free at the WordPress Plugin repository and your patasente.me</li>
-                    </ol>
-                    <p class="p-5"><img src="screenshots/woocommerce-patasente-gateway-gateway-installed.png" class="img-fluid border" alt="WooCommerce-Patasente-Payment-Gateway" title="WooCommerce Patasente Payment Gateway">
-                    <em class="text-muted"><strong>Fig 3:</strong> WooCommerce Patasente Payment Gateway</em></p>
-                    <ol>
-                        <li>Login you to the website dashboard.</li>
-                        <li>Plugins</li>
-                        <li>Add New, then search for Patasente in the plugins</li>
-                        <li>Alternatively, Click upload and select the plugin file from your computer.</li>
+                        <li>
+                            <strong>Get the Plugin</strong>
+                            <p><strong>The WooCommerce Patasente Payment Gateway</strong> is available for free at the WordPress Plugin repository and your <a href="https://patasente.me">patasente.me</a> account.</p>
+                            <p class="p-5">
+                                <img src="screenshots/woocommerce-patasente-gateway-gateway-installed.png" class="img-fluid border" alt="WooCommerce-Patasente-Payment-Gateway" title="WooCommerce Patasente Payment Gateway">
+                                <em class="text-muted"><strong>Fig 3:</strong> WooCommerce Patasente Payment Gateway</em>
+                            </p>
+                        </li>
+                        <li>Install and setup the plugin
+                            <p>You will have to login to your WordPress and WooCommerce based website. Access the plugins menu and 
+                                click Add New. Search for Patasente, then select WooCommerce Patasente Payment Gateway, then click Add Plugin.
+                            </p>
+                            <p>
+                                Alternatively, Click upload then select the plugin file from your computer and click Upload.
+                            </p>
+                        </li>
                         <li>After installing the plugin, activate it.</li>
                         <li>Access the settings through <strong>WooCommerce -&gt; Settings</strong>.</li>
                         <li>Alternatively access the settings <strong>Plugins -&gt;  WooCommerce Patasente Payment Gateway -&gt; Settings.</strong></li>
@@ -146,14 +167,15 @@
                                 <li>Instructions</li>
                                 <li>Gateway API key</li>
                                 <li>Gateway Widget Key</li>
-                                <li><strong>Save changes</strong></li>
+                                <li>Save changes</li>
                             </ul>
+                            <p class="p-5">
+                                <img src="screenshots/woocommerce-patasente-gateway-plugin-settings.png" class="img-fluid" alt="WooCommerce-Patasente-Payment-Gateway-settings" title="WooCommerce Patasente Payment Gateway settings">
+                                <em class="text-muted"><strong>Fig 3:</strong> WooCommerce Patasente Payment Gateway settings</em>
+                            </p>
                         </li>
                     </ol>
 
-                    <p class="p-5">
-                        <img src="screenshots/woocommerce-patasente-gateway-plugin-settings.png" class="img-fluid" alt="WooCommerce-Patasente-Payment-Gateway-settings" title="WooCommerce Patasente Payment Gateway settings">
-                    <em><strong>Fig :3</strong>WooCommerce Patasente Payment Gateway settings</em></p>
                     <h3 class="anchor" id="pay">How to pay with WooCommerce Patasente Payment Gateway</h3>
                     <p>Assuming you’ve successfully followed the above steps, the Patasente Payment optional will be available for selection on your website.</p>
                     <p>And Customers will be able to checkout and make payments using Patasente.</p>
